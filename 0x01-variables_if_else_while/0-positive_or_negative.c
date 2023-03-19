@@ -1,23 +1,28 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdio.h>
+/* more headers gose there */
+
+/* betty style doc for function main goes there */
 /**
  * main - Entry point
- * Return: 0 (Success)
+ * 
+ * Return always 0
  */
-int main(void)
-{
+ {
 int n;
-if (n > 0)
+
+	 if (n > 0)
 {
-printf("%d is a positive\n", n); 
+         printf("%d is a positive\n", n); 
 }
 {
-else if (n == 0)}
-printf("%d is a zero\n", n);
+         else if (n == 0)}
+        
+	 printf("%d is a zero\n", n);
 }
-else
+         else
 {
-printf("%d is a nagative number\n", n);
-return (0);
+         printf("%d is a nagative number\n", n);
+         return (0);
 }
