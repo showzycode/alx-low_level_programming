@@ -5,20 +5,17 @@
  */
 int main(void)
 {
-char c;
-char d;
+	char c;
 
-c = 'a';
-d = 'A';
-while
-(c <= 'z') {
-putchar(c);
-c++;
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		putchar(c);
+	}
+	for (c = 'A'; c <= 'Z'; c++)
+	{
+		putchar(c);
+	}
+	putchar('\n');
+	return (0);
 }
- while
-(d <= 'z') {
-putchar(c);
-d++
-}
-return (0);
-}
+
