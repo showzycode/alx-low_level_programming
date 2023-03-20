@@ -2,6 +2,7 @@
 /**
  *main - Entry point 
  *Discription: 'print numbers of base 16'
+ *Return: 0
  */
 int main(void)
 
