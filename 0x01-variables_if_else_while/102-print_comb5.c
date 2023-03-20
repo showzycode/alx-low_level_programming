@@ -4,7 +4,7 @@
 /**
  * main - Numbers from 0 to 99.
  *
- * REturn: always return 0.
+ * Return: Always return 0.i
  */
 
 int main(void)
