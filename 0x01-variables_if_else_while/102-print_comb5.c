@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <stdio.h>
-
 /**
  * main - entrry point
- *
  * Return: 0 (Success)
  */
 
