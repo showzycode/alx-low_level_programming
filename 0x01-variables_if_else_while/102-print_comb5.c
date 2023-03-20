@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - Numbers from 0 to 99.
+ * main - entrry point
  *
- * Return: Always return 0.
+ * Return: 0 (Success)
  */
 
 int main(void)
