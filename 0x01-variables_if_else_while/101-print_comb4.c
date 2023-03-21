@@ -1,9 +1,7 @@
 #include <stdio.h>
 /**
- * main Entry point
- * prints all possible different combinations of three digits
- * Return value
- * Return 0
+ * main - a program that print
+ * Return value 0
  */
 
 int main(void)
@@ -31,3 +29,4 @@ int main(void)
 	}
 	return (0);
 }
+
