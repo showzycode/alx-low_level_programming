@@ -2,6 +2,7 @@
 /**
  * main Entry point
  * prints all possible different combinations of three digits
+ * Return value
  * Return 0
  */
 
@@ -10,7 +11,6 @@ int main(void)
 	int i;
 	int j;
 	int k;
-	
 	for (i = 0; i < 10; i++)
 	{
 		for (j = i; j < 10; j++)
