@@ -1,34 +1,32 @@
 #include <stdio.h>
 /**
- * main - a program that print
- * Return value of main 0
- *
- */
-
+* main - Prints the add of the even-valued
+* fibonacci numbers.
+*
+* Return: Always 0.
+*/
 int main(void)
-{
-	int i;
-	int j;
-	int k;
-
-	for (i = 0; i < 10; i++)
 	{
-		for (j = 1; j < 10; j++)
+		int count;
+		unsigned long fib1 = 0, fib2 = 1, sum;
+
+
+		for (count = 0; count < 50; count++)
 		{
-			for (k = 2; k < 10; k++)
-			{
-				putchar(i + '0');
-				putchar(j + '0');
-				putchar(k + '0');
-			if (i == 7 && j == 8 && k == 9)
-				putchar('\n');
+			sum = fib1 + fib2;
+			printf("%lu", sum);
+
+
+			fib1 = fib2;
+			fib2 = sum;
+
+
+			if (count == 49)
+				printf("\n");
 			else
-			{
-				putchar(',');
-				putchar(' ');
-			}
+				printf(", ");
 		}
+
+
+		return (0);
 	}
-	}
-	return (0);
-}
