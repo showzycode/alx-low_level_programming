@@ -1,14 +1,14 @@
+#include "main.h"
 /**
- * main - check the code.
+ * _isupper - checks uppercase or not
+ * @c: ascii value
  *
- * Return: Always 0.
+ * Return: 1 if uppercase 0 if not
  */
-int _isupper(int c);
+int _isupper(int c)
 {
-	int c;
-
-	for (c <= 'A'; and c <= 'Z')
-		return(1);
+	if (c >= 65 && c <= 90)
+		return (1);
 	else
 		return (0);
 }
